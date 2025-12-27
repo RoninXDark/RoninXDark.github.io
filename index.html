@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - AI & Data Student</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--accent);
+            font-weight: bold;
+        }
+        .section {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            margin-top: 0;
+            color: var(--text-main);
+        }
+        .tag {
+            display: inline-block;
+            background: #334155;
+            color: var(--accent);
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 5px 5px 5px 0;
+            font-size: 0.9rem;
+        }
+        .project-card {
+            border: 1px solid #334155;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #0f172a;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>[Твоє Ім'я]</h1>
+        <div class="subtitle">AI in Business Student | Data Analyst | Python Dev</div>
+        <p style="color: var(--text-secondary); margin-top: 15px;">
+            Lublin, Poland • [Твій Email] • <a href="time" style="color: var(--accent)">LinkedIn</a>
+        </p>
+    </header>
+
+    <div class="section">
+        <h2>🚀 About Me</h2>
+        <p>
+            I am a student at <strong>Lublin University of Technology</strong> majoring in <strong>AI in Business</strong>. 
+            I bridge the gap between technical data analysis and business logic. 
+            Passionate about automating processes and finding insights in data using Python and R.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>🛠 Technical Skills</h2>
+        <div>
+            <span class="tag">Python</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">R Language</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Pandas & NumPy</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">SQL</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📂 Featured Projects</h2>
+        
+        <div class="project-card">
+            <h3>📈 Crypto Price Tracker Bot</h3>
+            <p style="color: var(--text-secondary);">Python, Aiogram, REST API</p>
+            <p>
+                A real-time Telegram bot that tracks cryptocurrency prices using the CoinGecko API. 
+                Features include an interactive menu, 24h change indicators, and robust error handling.
+            </p>
+            <a href="https://github.com/RoninXDark" class="btn">View Code on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>📊 Data Analysis Projects</h3>
+            <p style="color: var(--text-secondary);">R, Python, Jupyter</p>
+            <p>
+                Academic projects involving statistical analysis and data visualization. 
+                Focus on business insights and predictive modeling.
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎓 Education</h2>
+        <h3>Lublin University of Technology (Politechnika Lubelska)</h3>
+        <p class="subtitle" style="font-size: 1rem;">Bachelor in Artificial Intelligence in Business</p>
+        <p style="color: var(--text-secondary);">Currently Studying</p>
+    </div>
+
+    <footer>
+        <p>© 2025 Built by RoninXDark. Hosted on GitHub Pages.</p>
+    </footer>
+</div>
+
+</body>
+</html>
